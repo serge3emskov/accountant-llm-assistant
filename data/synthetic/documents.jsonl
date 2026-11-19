@@ -1,0 +1,120 @@
+{"date": "2026-01-02", "doc_type": "акт выполненных работ", "counterparty": "ИП Смирнова Е.В.", "number": "1-011", "amount": 120000, "status": "posted"}
+{"date": "2026-01-02", "doc_type": "счёт на оплату", "counterparty": "ООО «Орион-Групп»", "number": "1-014", "amount": 76000, "status": "expected"}
+{"date": "2026-01-02", "doc_type": "акт выполненных работ", "counterparty": "ООО «Техно-Плюс»", "number": "1-025", "amount": 15000, "status": "received"}
+{"date": "2026-01-03", "doc_type": "счёт на оплату", "counterparty": "ООО «Кристалл-Маркет»", "number": "1-010", "amount": 90000, "status": "received"}
+{"date": "2026-01-03", "doc_type": "УПД", "counterparty": "ООО «Вершина-Холдинг»", "number": "1-012", "amount": 90000, "status": "received"}
+{"date": "2026-01-03", "doc_type": "товарная накладная", "counterparty": "ООО «Импульс-Софт»", "number": "1-017", "amount": 15000, "status": "expected"}
+{"date": "2026-01-05", "doc_type": "счёт на оплату", "counterparty": "ООО «Кристалл-Маркет»", "number": "1-007", "amount": 48000, "status": "expected"}
+{"date": "2026-01-05", "doc_type": "счёт на оплату", "counterparty": "ООО «Юпитер-Снаб»", "number": "1-022", "amount": 76000, "status": "expected"}
+{"date": "2026-01-05", "doc_type": "УПД", "counterparty": "ООО «Омега-Снаб»", "number": "1-023", "amount": 76000, "status": "posted"}
+{"date": "2026-01-06", "doc_type": "УПД", "counterparty": "ИП Кузнецов А.А.", "number": "1-034", "amount": 48000, "status": "received"}
+{"date": "2026-01-08", "doc_type": "товарная накладная", "counterparty": "ИП Смирнов Е.Ж.", "number": "1-036", "amount": 48000, "status": "received"}
+{"date": "2026-01-10", "doc_type": "акт выполненных работ", "counterparty": "ООО «ТоргСервис»", "number": "1-001", "amount": 250000, "status": "posted"}
+{"date": "2026-01-12", "doc_type": "УПД", "counterparty": "ИП Семёнов Е.Ж.", "number": "1-004", "amount": 76000, "status": "expected"}
+{"date": "2026-01-12", "doc_type": "акт выполненных работ", "counterparty": "ООО «Ока-Логистик»", "number": "1-018", "amount": 340000, "status": "expected"}
+{"date": "2026-01-14", "doc_type": "товарная накладная", "counterparty": "ООО «Техно-Плюс»", "number": "1-033", "amount": 250000, "status": "posted"}
+{"date": "2026-01-16", "doc_type": "акт выполненных работ", "counterparty": "ООО «Нева-Холдинг»", "number": "1-008", "amount": 76000, "status": "posted"}
+{"date": "2026-01-16", "doc_type": "счёт-фактура", "counterparty": "ООО «ТоргСервис»", "number": "1-021", "amount": 90000, "status": "received"}
+{"date": "2026-01-16", "doc_type": "товарная накладная", "counterparty": "ИП Тарасов В.Г.", "number": "1-028", "amount": 76000, "status": "expected"}
+{"date": "2026-01-17", "doc_type": "товарная накладная", "counterparty": "ООО «Меркурий-Холдинг»", "number": "1-009", "amount": 90000, "status": "received"}
+{"date": "2026-01-17", "doc_type": "счёт на оплату", "counterparty": "ИП Богданов А.А.", "number": "1-038", "amount": 15000, "status": "received"}
+{"date": "2026-01-17", "doc_type": "УПД", "counterparty": "ООО «Вершина-Холдинг»", "number": "1-040", "amount": 15000, "status": "expected"}
+{"date": "2026-01-18", "doc_type": "счёт на оплату", "counterparty": "ООО «Маяк»", "number": "1-019", "amount": 120000, "status": "posted"}
+{"date": "2026-01-18", "doc_type": "УПД", "counterparty": "ООО «Василёк»", "number": "1-039", "amount": 76000, "status": "expected"}
+{"date": "2026-01-19", "doc_type": "счёт-фактура", "counterparty": "ИП Смирнов И.К.", "number": "1-032", "amount": 120000, "status": "expected"}
+{"date": "2026-01-20", "doc_type": "счёт на оплату", "counterparty": "ИП Белов Г.Д.", "number": "1-003", "amount": 90000, "status": "posted"}
+{"date": "2026-01-23", "doc_type": "счёт на оплату", "counterparty": "ООО «Союз-Альянс»", "number": "1-002", "amount": 250000, "status": "expected"}
+{"date": "2026-01-23", "doc_type": "счёт-фактура", "counterparty": "ООО «Союз-Альянс»", "number": "1-016", "amount": 48000, "status": "received"}
+{"date": "2026-01-23", "doc_type": "УПД", "counterparty": "ООО «СтройГрад»", "number": "1-024", "amount": 250000, "status": "posted"}
+{"date": "2026-01-23", "doc_type": "счёт на оплату", "counterparty": "ООО «Прогресс»", "number": "1-030", "amount": 15000, "status": "expected"}
+{"date": "2026-01-24", "doc_type": "счёт на оплату", "counterparty": "ООО «Кристалл-Альянс»", "number": "1-035", "amount": 340000, "status": "received"}
+{"date": "2026-01-25", "doc_type": "счёт-фактура", "counterparty": "ООО «Вершина-Холдинг»", "number": "1-005", "amount": 250000, "status": "received"}
+{"date": "2026-01-25", "doc_type": "товарная накладная", "counterparty": "ООО «Заря-Стандарт»", "number": "1-020", "amount": 340000, "status": "posted"}
+{"date": "2026-01-25", "doc_type": "товарная накладная", "counterparty": "ООО «Василёк»", "number": "1-027", "amount": 15000, "status": "expected"}
+{"date": "2026-01-26", "doc_type": "товарная накладная", "counterparty": "ИП Богданов А.А.", "number": "1-015", "amount": 120000, "status": "expected"}
+{"date": "2026-01-26", "doc_type": "счёт на оплату", "counterparty": "ООО «Заря-Стандарт»", "number": "1-026", "amount": 48000, "status": "expected"}
+{"date": "2026-01-27", "doc_type": "УПД", "counterparty": "ООО «Импульс-Софт»", "number": "1-013", "amount": 340000, "status": "expected"}
+{"date": "2026-01-27", "doc_type": "товарная накладная", "counterparty": "ИП Богданов А.А.", "number": "1-029", "amount": 76000, "status": "posted"}
+{"date": "2026-01-27", "doc_type": "счёт-фактура", "counterparty": "ООО «Кристалл-Маркет»", "number": "1-037", "amount": 48000, "status": "received"}
+{"date": "2026-01-28", "doc_type": "счёт на оплату", "counterparty": "ИП Кузнецов А.А.", "number": "1-006", "amount": 76000, "status": "received"}
+{"date": "2026-01-28", "doc_type": "счёт-фактура", "counterparty": "ООО «Сигма-Консалт»", "number": "1-031", "amount": 48000, "status": "expected"}
+{"date": "2026-02-01", "doc_type": "акт выполненных работ", "counterparty": "ООО «СтройГрад»", "number": "2-005", "amount": 250000, "status": "received"}
+{"date": "2026-02-03", "doc_type": "счёт-фактура", "counterparty": "ООО «Дельта-Альянс»", "number": "2-010", "amount": 340000, "status": "posted"}
+{"date": "2026-02-03", "doc_type": "акт выполненных работ", "counterparty": "ИП Кузнецов Б.В.", "number": "2-019", "amount": 48000, "status": "received"}
+{"date": "2026-02-04", "doc_type": "акт выполненных работ", "counterparty": "ООО «Волга-Логистик»", "number": "2-040", "amount": 250000, "status": "expected"}
+{"date": "2026-02-05", "doc_type": "акт выполненных работ", "counterparty": "ООО «Вершина-Холдинг»", "number": "2-029", "amount": 48000, "status": "received"}
+{"date": "2026-02-07", "doc_type": "УПД", "counterparty": "ООО «Маяк»", "number": "2-016", "amount": 340000, "status": "expected"}
+{"date": "2026-02-07", "doc_type": "товарная накладная", "counterparty": "ООО «Кристалл-Альянс»", "number": "2-031", "amount": 250000, "status": "posted"}
+{"date": "2026-02-08", "doc_type": "счёт на оплату", "counterparty": "ООО «Омега-Плюс»", "number": "2-008", "amount": 15000, "status": "posted"}
+{"date": "2026-02-09", "doc_type": "акт выполненных работ", "counterparty": "ООО «Юпитер-Снаб»", "number": "2-001", "amount": 48000, "status": "posted"}
+{"date": "2026-02-09", "doc_type": "счёт на оплату", "counterparty": "ООО «Юпитер-Центр»", "number": "2-035", "amount": 48000, "status": "expected"}
+{"date": "2026-02-10", "doc_type": "УПД", "counterparty": "ООО «Омега-Логистик»", "number": "2-014", "amount": 250000, "status": "expected"}
+{"date": "2026-02-11", "doc_type": "товарная накладная", "counterparty": "ООО «Проф-Опт»", "number": "2-006", "amount": 90000, "status": "received"}
+{"date": "2026-02-11", "doc_type": "акт выполненных работ", "counterparty": "ООО «Гамма-Софт»", "number": "2-011", "amount": 15000, "status": "expected"}
+{"date": "2026-02-11", "doc_type": "счёт-фактура", "counterparty": "ООО «Маяк»", "number": "2-022", "amount": 250000, "status": "expected"}
+{"date": "2026-02-11", "doc_type": "товарная накладная", "counterparty": "ООО «Юпитер-Снаб»", "number": "2-024", "amount": 15000, "status": "posted"}
+{"date": "2026-02-13", "doc_type": "акт выполненных работ", "counterparty": "ООО «Юпитер-Центр»", "number": "2-002", "amount": 48000, "status": "received"}
+{"date": "2026-02-14", "doc_type": "акт выполненных работ", "counterparty": "ИП Павлов В.Г.", "number": "2-004", "amount": 250000, "status": "posted"}
+{"date": "2026-02-14", "doc_type": "счёт-фактура", "counterparty": "ИП Павлов В.Г.", "number": "2-015", "amount": 90000, "status": "expected"}
+{"date": "2026-02-14", "doc_type": "акт выполненных работ", "counterparty": "ИП Смирнов Е.Ж.", "number": "2-027", "amount": 76000, "status": "expected"}
+{"date": "2026-02-15", "doc_type": "товарная накладная", "counterparty": "ООО «Союз-Альянс»", "number": "2-013", "amount": 340000, "status": "posted"}
+{"date": "2026-02-15", "doc_type": "товарная накладная", "counterparty": "ИП Кузнецов Б.В.", "number": "2-025", "amount": 120000, "status": "received"}
+{"date": "2026-02-15", "doc_type": "счёт-фактура", "counterparty": "ИП Семёнов Е.Ж.", "number": "2-037", "amount": 90000, "status": "posted"}
+{"date": "2026-02-16", "doc_type": "акт выполненных работ", "counterparty": "ООО «Сигма-Консалт»", "number": "2-012", "amount": 120000, "status": "expected"}
+{"date": "2026-02-16", "doc_type": "счёт-фактура", "counterparty": "ООО «Дельта-Маркет»", "number": "2-021", "amount": 250000, "status": "posted"}
+{"date": "2026-02-16", "doc_type": "акт выполненных работ", "counterparty": "ООО «Ока-Логистик»", "number": "2-023", "amount": 15000, "status": "posted"}
+{"date": "2026-02-16", "doc_type": "счёт-фактура", "counterparty": "ООО «Кристалл-Альянс»", "number": "2-039", "amount": 76000, "status": "received"}
+{"date": "2026-02-17", "doc_type": "счёт на оплату", "counterparty": "ООО «Волга-Логистик»", "number": "2-028", "amount": 48000, "status": "posted"}
+{"date": "2026-02-17", "doc_type": "акт выполненных работ", "counterparty": "ИП Волков З.И.", "number": "2-032", "amount": 120000, "status": "received"}
+{"date": "2026-02-17", "doc_type": "счёт-фактура", "counterparty": "ИП Кузнецов Б.В.", "number": "2-036", "amount": 15000, "status": "posted"}
+{"date": "2026-02-19", "doc_type": "акт выполненных работ", "counterparty": "ИП Тарасов В.Г.", "number": "2-007", "amount": 340000, "status": "received"}
+{"date": "2026-02-21", "doc_type": "счёт на оплату", "counterparty": "ООО «Василёк»", "number": "2-018", "amount": 76000, "status": "expected"}
+{"date": "2026-02-21", "doc_type": "счёт на оплату", "counterparty": "ИП Тарасов В.Г.", "number": "2-038", "amount": 15000, "status": "expected"}
+{"date": "2026-02-23", "doc_type": "акт выполненных работ", "counterparty": "ООО «СтройГрад»", "number": "2-003", "amount": 15000, "status": "expected"}
+{"date": "2026-02-23", "doc_type": "товарная накладная", "counterparty": "ООО «Строй-Трейд»", "number": "2-009", "amount": 76000, "status": "expected"}
+{"date": "2026-02-23", "doc_type": "УПД", "counterparty": "ИП Смирнова Е.В.", "number": "2-030", "amount": 90000, "status": "expected"}
+{"date": "2026-02-24", "doc_type": "УПД", "counterparty": "ООО «Нева-Холдинг»", "number": "2-033", "amount": 120000, "status": "received"}
+{"date": "2026-02-26", "doc_type": "УПД", "counterparty": "ИП Павлов В.Г.", "number": "2-020", "amount": 15000, "status": "posted"}
+{"date": "2026-02-26", "doc_type": "счёт-фактура", "counterparty": "ООО «Ока-Стандарт»", "number": "2-026", "amount": 48000, "status": "posted"}
+{"date": "2026-02-27", "doc_type": "акт выполненных работ", "counterparty": "ООО «Омега-Снаб»", "number": "2-017", "amount": 90000, "status": "expected"}
+{"date": "2026-02-27", "doc_type": "счёт-фактура", "counterparty": "ООО «СтройГрад»", "number": "2-034", "amount": 120000, "status": "expected"}
+{"date": "2026-03-01", "doc_type": "товарная накладная", "counterparty": "ООО «Альфа-Трейд»", "number": "3-020", "amount": 340000, "status": "expected"}
+{"date": "2026-03-02", "doc_type": "счёт на оплату", "counterparty": "ООО «Ромашка»", "number": "3-031", "amount": 250000, "status": "posted"}
+{"date": "2026-03-03", "doc_type": "акт выполненных работ", "counterparty": "ИП Кузнецов Б.В.", "number": "3-007", "amount": 15000, "status": "received"}
+{"date": "2026-03-04", "doc_type": "счёт на оплату", "counterparty": "ООО «ТоргСервис»", "number": "3-009", "amount": 120000, "status": "received"}
+{"date": "2026-03-04", "doc_type": "счёт-фактура", "counterparty": "ООО «Техно-Актив»", "number": "3-023", "amount": 15000, "status": "received"}
+{"date": "2026-03-04", "doc_type": "счёт-фактура", "counterparty": "ООО «Волга-Логистик»", "number": "3-038", "amount": 120000, "status": "expected"}
+{"date": "2026-03-04", "doc_type": "счёт-фактура", "counterparty": "ИП Смирнова Е.В.", "number": "3-039", "amount": 250000, "status": "posted"}
+{"date": "2026-03-06", "doc_type": "товарная накладная", "counterparty": "ООО «Гамма-Софт»", "number": "3-002", "amount": 15000, "status": "received"}
+{"date": "2026-03-06", "doc_type": "акт выполненных работ", "counterparty": "ООО «Меркурий-Холдинг»", "number": "3-012", "amount": 340000, "status": "expected"}
+{"date": "2026-03-06", "doc_type": "акт выполненных работ", "counterparty": "ООО «Строй-Трейд»", "number": "3-040", "amount": 340000, "status": "expected"}
+{"date": "2026-03-07", "doc_type": "товарная накладная", "counterparty": "ООО «Юпитер-Снаб»", "number": "3-005", "amount": 76000, "status": "received"}
+{"date": "2026-03-07", "doc_type": "акт выполненных работ", "counterparty": "ИП Павлов В.Г.", "number": "3-008", "amount": 15000, "status": "posted"}
+{"date": "2026-03-07", "doc_type": "счёт на оплату", "counterparty": "ООО «Маяк»", "number": "3-026", "amount": 90000, "status": "expected"}
+{"date": "2026-03-08", "doc_type": "товарная накладная", "counterparty": "ООО «Орион-Групп»", "number": "3-011", "amount": 120000, "status": "posted"}
+{"date": "2026-03-11", "doc_type": "счёт на оплату", "counterparty": "ИП Петров Е.Ж.", "number": "3-003", "amount": 15000, "status": "expected"}
+{"date": "2026-03-11", "doc_type": "акт выполненных работ", "counterparty": "ООО «Нева-Холдинг»", "number": "3-004", "amount": 15000, "status": "expected"}
+{"date": "2026-03-11", "doc_type": "счёт на оплату", "counterparty": "ООО «Юпитер-Центр»", "number": "3-035", "amount": 120000, "status": "received"}
+{"date": "2026-03-11", "doc_type": "товарная накладная", "counterparty": "ИП Иванов А.А.", "number": "3-037", "amount": 90000, "status": "posted"}
+{"date": "2026-03-12", "doc_type": "УПД", "counterparty": "ИП Богданов А.А.", "number": "3-015", "amount": 340000, "status": "received"}
+{"date": "2026-03-13", "doc_type": "товарная накладная", "counterparty": "ООО «Вершина-Маркет»", "number": "3-034", "amount": 76000, "status": "posted"}
+{"date": "2026-03-14", "doc_type": "счёт-фактура", "counterparty": "ООО «Омега-Логистик»", "number": "3-016", "amount": 76000, "status": "received"}
+{"date": "2026-03-14", "doc_type": "УПД", "counterparty": "ИП Смирнов И.К.", "number": "3-027", "amount": 15000, "status": "posted"}
+{"date": "2026-03-14", "doc_type": "УПД", "counterparty": "ООО «Союз-Альянс»", "number": "3-029", "amount": 15000, "status": "posted"}
+{"date": "2026-03-15", "doc_type": "счёт на оплату", "counterparty": "ИП Иванов А.А.", "number": "3-006", "amount": 15000, "status": "expected"}
+{"date": "2026-03-15", "doc_type": "счёт на оплату", "counterparty": "ООО «Маяк»", "number": "3-019", "amount": 250000, "status": "received"}
+{"date": "2026-03-15", "doc_type": "товарная накладная", "counterparty": "ООО «Юпитер-Снаб»", "number": "3-033", "amount": 15000, "status": "received"}
+{"date": "2026-03-16", "doc_type": "УПД", "counterparty": "ООО «Горизонт-Центр»", "number": "3-013", "amount": 250000, "status": "expected"}
+{"date": "2026-03-17", "doc_type": "УПД", "counterparty": "ООО «Ромашка»", "number": "3-024", "amount": 15000, "status": "expected"}
+{"date": "2026-03-19", "doc_type": "акт выполненных работ", "counterparty": "ООО «Заря-Стандарт»", "number": "3-018", "amount": 76000, "status": "received"}
+{"date": "2026-03-19", "doc_type": "товарная накладная", "counterparty": "ИП Кузнецов Б.В.", "number": "3-028", "amount": 120000, "status": "posted"}
+{"date": "2026-03-20", "doc_type": "УПД", "counterparty": "ООО «Маяк»", "number": "3-010", "amount": 340000, "status": "expected"}
+{"date": "2026-03-22", "doc_type": "УПД", "counterparty": "ООО «Прогресс»", "number": "3-001", "amount": 250000, "status": "posted"}
+{"date": "2026-03-24", "doc_type": "счёт на оплату", "counterparty": "ООО «Омега-Снаб»", "number": "3-030", "amount": 15000, "status": "expected"}
+{"date": "2026-03-24", "doc_type": "акт выполненных работ", "counterparty": "ООО «Дельта-Альянс»", "number": "3-036", "amount": 90000, "status": "received"}
+{"date": "2026-03-25", "doc_type": "счёт на оплату", "counterparty": "ИП Белов Г.Д.", "number": "3-022", "amount": 48000, "status": "posted"}
+{"date": "2026-03-27", "doc_type": "акт выполненных работ", "counterparty": "ИП Зайцев Е.Ж.", "number": "3-017", "amount": 250000, "status": "received"}
+{"date": "2026-03-27", "doc_type": "УПД", "counterparty": "ООО «Волга-Комплект»", "number": "3-021", "amount": 250000, "status": "received"}
+{"date": "2026-03-28", "doc_type": "счёт-фактура", "counterparty": "ООО «Кристалл-Альянс»", "number": "3-014", "amount": 340000, "status": "posted"}
+{"date": "2026-03-28", "doc_type": "счёт-фактура", "counterparty": "ООО «Альфа-Трейд»", "number": "3-025", "amount": 15000, "status": "expected"}
+{"date": "2026-03-28", "doc_type": "УПД", "counterparty": "ИП Петров Е.Ж.", "number": "3-032", "amount": 120000, "status": "received"}

@@ -1,0 +1,16 @@
+{"id": "gq01", "text": "Какие проводки при покупке товаров?", "query_types": ["posting"], "subject": "self"}
+{"id": "gq02", "text": "Можно ли принять НДС к вычету?", "query_types": ["deduction"], "subject": "self"}
+{"id": "gq03", "text": "Когда сдавать 6-НДФЛ?", "query_types": ["deadline"], "subject": "self"}
+{"id": "gq04", "text": "Какая ставка налога на прибыль?", "query_types": ["tax"], "subject": "self"}
+{"id": "gq05", "text": "Что ты помнишь о нашей компании?", "query_types": ["profile_review"], "subject": "self"}
+{"id": "gq06", "text": "Проверь контрагента Маяк", "query_types": ["document_check"], "subject": "self"}
+{"id": "gq07", "text": "С какими поставщиками мы работали раньше?", "query_types": ["history"], "subject": "self"}
+{"id": "gq08", "text": "Добрый день!", "query_types": ["general"], "subject": "self"}
+{"id": "gq09", "text": "Можно ли учесть расходы на аренду при УСН?", "query_types": ["deduction"], "subject": "self"}
+{"id": "gq10", "text": "Как отразить выплату дивидендов?", "query_types": ["posting"], "subject": "self"}
+{"id": "gq11", "text": "Сроки уплаты НДС за квартал", "query_types": ["deadline", "tax"], "subject": "self"}
+{"id": "gq12", "text": "Рассчитай страховые взносы с зарплаты", "query_types": ["tax"], "subject": "self"}
+{"id": "gq13", "text": "Какой режим налогообложения у дочки?", "query_types": ["profile_review"], "subject": "дочка"}
+{"id": "gq14", "text": "Нужен ли счёт-фактура для вычета?", "query_types": ["deduction", "document_check"], "subject": "self"}
+{"id": "gq15", "text": "Когда платить уведомление ЕНП?", "query_types": ["deadline"], "subject": "self"}
+{"id": "gq16", "text": "Привет, мы на патенте.", "query_types": ["general"], "subject": "self"}

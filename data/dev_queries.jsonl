@@ -1,0 +1,12 @@
+{"id": "q01", "text": "Как провести покупку товаров у Ромашки?", "query_types": ["posting"], "subject": "self"}
+{"id": "q02", "text": "Можно принять НДС к вычету без счёта-фактуры?", "query_types": ["deduction", "document_check"], "subject": "self"}
+{"id": "q03", "text": "Когда сдавать декларацию по УСН?", "query_types": ["deadline"], "subject": "self"}
+{"id": "q04", "text": "Какая ставка НДС в этом году?", "query_types": ["tax"], "subject": "self"}
+{"id": "q05", "text": "Что ты знаешь о нашей компании?", "query_types": ["profile_review"], "subject": "self"}
+{"id": "q06", "text": "Проверь контрагента Ромашка, надёжный ли?", "query_types": ["document_check"], "subject": "self"}
+{"id": "q07", "text": "Какие договоры у нас были раньше?", "query_types": ["history"], "subject": "self"}
+{"id": "q08", "text": "Здравствуйте! Мы на упрощёнке.", "query_types": ["general"], "subject": "self"}
+{"id": "q09", "text": "Можно ли учесть расходы на аренду?", "query_types": ["deduction"], "subject": "self"}
+{"id": "q10", "text": "Какие проводки при выплате зарплаты?", "query_types": ["posting"], "subject": "self"}
+{"id": "q11", "text": "Сроки уплаты страховых взносов", "query_types": ["deadline", "tax"], "subject": "self"}
+{"id": "q12", "text": "Рассчитай налог при УСН доходы", "query_types": ["tax"], "subject": "self"}

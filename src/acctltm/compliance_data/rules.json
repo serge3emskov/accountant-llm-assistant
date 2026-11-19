@@ -1,0 +1,142 @@
+{
+  "rules": [
+    {"id": "r-div-usn-exp", "kind": "operation_operation",
+     "operation": {"classes": ["dividends"]}, "other": {"classes": ["usn_expense"]},
+     "level": "contraindicated", "message": "дивиденды не учитываются в расходах УСН — это распределение прибыли",
+     "reason": "дивиденд.*расход|распределени.*прибыл", "source": "п. 1 ст. 346.16 НК РФ"},
+
+    {"id": "r-advance-vat-deduct", "kind": "operation_operation",
+     "operation": {"classes": ["advance_in"]}, "other": {"classes": ["vat_deduction"]},
+     "level": "caution", "message": "НДС с аванса у покупателя к вычету только при счёте-фактуре на аванс и договоре с условием предоплаты",
+     "reason": "аванс.*счет-фактур|счет-фактур.*аванс", "source": "п. 12 ст. 171 НК РФ"},
+
+    {"id": "r-psn-vat", "kind": "regime",
+     "operation": {"classes": ["vat_deduction", "vat_charge"]}, "regimes": ["ПСН", "НПД", "АУСН"],
+     "level": "contraindicated", "message": "на этом режиме организация не является плательщиком НДС — вычетов и исчисления нет",
+     "reason": "не.*плательщик ндс|нет ндс|освобожден|не облагается ндс", "source": "ст. 346.11, 346.43 НК РФ"},
+
+    {"id": "r-usn-income-exp", "kind": "regime",
+     "operation": {"classes": ["usn_expense"]}, "regimes": ["УСН"], "usn_object": ["доходы"],
+     "level": "contraindicated", "message": "при объекте «доходы» расходы не уменьшают налог",
+     "reason": "доходы.*расход.*не|объект.*доходы|6 ?%.*расход", "source": "ст. 346.14, 346.18 НК РФ"},
+
+    {"id": "r-usn-employees", "kind": "attribute",
+     "operation": {"classes": ["usn_expense", "payroll"]}, "attribute": "employees", "attr_from": 131, "regimes": ["УСН"],
+     "level": "contraindicated", "message": "численность свыше 130 человек — право на УСН утрачено",
+     "reason": "130|численн.*лимит|утрат.*усн", "source": "пп. 15 п. 3 ст. 346.12 НК РФ"},
+
+    {"id": "r-usn-revenue", "kind": "attribute",
+     "operation": {"classes": ["usn_expense"]}, "attribute": "revenue_year", "attr_from": 450000000, "regimes": ["УСН"],
+     "level": "contraindicated", "message": "доход свыше 450 млн ₽ за год — право на УСН утрачено",
+     "reason": "450|лимит.*доход|утрат.*усн", "source": "пп. 16 п. 3 ст. 346.12 НК РФ"},
+
+    {"id": "r-npd-employees", "kind": "attribute",
+     "operation": {"classes": ["payroll", "gph"]}, "attribute": "employees", "attr_from": 1, "regimes": ["НПД"],
+     "level": "contraindicated", "message": "на НПД (самозанятость) нельзя нанимать работников по трудовым договорам",
+     "reason": "нпд.*работник|самозанят.*нельзя.*работ|нельзя.*работник", "source": "ст. 4 ФЗ № 422-ФЗ"},
+
+    {"id": "r-psn-employees", "kind": "attribute",
+     "operation": {"classes": ["payroll"]}, "attribute": "employees", "attr_from": 16, "regimes": ["ПСН"],
+     "level": "contraindicated", "message": "ПСН: лимит 15 работников, превышение — утрата права на патент",
+     "reason": "15|псн.*работник|патент.*лимит", "source": "п. 5 ст. 346.43 НК РФ"},
+
+    {"id": "r-cash-limit", "kind": "flag",
+     "operation": {"classes": ["cash"]}, "flag": "cash_settlements", "flag_values": ["да", "иногда"], "contract_amount_above": 100000,
+     "level": "contraindicated", "message": "лимит наличных расчётов между юрлицами и ИП — 100 000 ₽ по одному договору",
+     "reason": "100 ?000|лимит.*наличн|сто тысяч", "source": "Указание Банка России № 5348-У"},
+
+    {"id": "r-retail-kkt", "kind": "flag",
+     "operation": {"classes": ["retail"]}, "flag": "kkt", "flag_values": ["нет"],
+     "level": "avoid", "message": "розничные продажи требуют применения онлайн-кассы (ККТ)",
+     "reason": "ккт|касс|54-фз|онлайн-касс", "source": "ФЗ № 54-ФЗ"},
+
+    {"id": "r-vat-exempt-invoice", "kind": "special",
+     "operation": {"classes": ["vat_doc", "vat_charge"]}, "states": ["vat_exempt"],
+     "level": "caution", "message": "при освобождении по ст. 145 НК РФ счёт-фактура с выделенным НДС обязывает уплатить налог в бюджет",
+     "reason": "145|освобожден.*ндс|выделен.*ндс.*уплат", "source": "п. 5 ст. 173 НК РФ"},
+
+    {"id": "r-dividends-tax", "kind": "regime",
+     "operation": {"classes": ["dividends"]}, "regimes": ["УСН", "ПСН", "НПД"],
+     "level": "caution", "message": "дивиденды облагаются НДФЛ (13/15%), а не налогом УСН/ПСН",
+     "reason": "ндфл|13|15|дивиденд.*налог", "source": "ст. 224 НК РФ"},
+
+    {"id": "r-gph", "kind": "info_op",
+     "operation": {"classes": ["gph"]},
+     "level": "info", "message": "с выплат по ГПХ начисляются страховые взносы, НДФЛ удерживает заказчик как налоговый агент",
+     "reason": "гпх.*взнос|взнос.*гпх|ндфл.*удерж|удерж.*ндфл", "source": "ст. 420, 226 НК РФ"},
+
+    {"id": "r-selfemployed", "kind": "info_op",
+     "operation": {"classes": ["selfemployed"]},
+     "level": "info", "message": "выплаты самозанятому не облагаются НДФЛ и взносами при наличии чека НПД",
+     "reason": "чек.*нпд|нпд.*чек|самозанят.*не.*взнос|без.*взнос.*чек", "source": "ФЗ № 422-ФЗ"},
+
+    {"id": "r-podotchet", "kind": "info_op",
+     "operation": {"classes": ["podotchet"]},
+     "level": "caution", "message": "подотчётные суммы требуют авансового отчёта и первичных документов",
+     "reason": "авансов.*отчет|авансов.*отчёт|первичн", "source": "п. 6.3 Указания Банка России № 3210-У"},
+
+    {"id": "r-travel", "kind": "info_op",
+     "operation": {"classes": ["travel"]},
+     "level": "info", "message": "суточные не облагаются НДФЛ и взносами в пределах 700 ₽/день по РФ и 2500 ₽ за границей",
+     "reason": "700|2500|суточн.*необлага", "source": "п. 1 ст. 217, пп. 2 п. 1 ст. 422 НК РФ"},
+
+    {"id": "r-representative", "kind": "info_op",
+     "operation": {"classes": ["representative"]},
+     "level": "caution", "message": "представительские расходы нормируются: не более 4% от расходов на оплату труда",
+     "reason": "4 ?%|четырех процент|нормир.*представит", "source": "п. 2 ст. 264 НК РФ"},
+
+    {"id": "r-import", "kind": "info_op",
+     "operation": {"classes": ["import"]},
+     "level": "caution", "message": "НДС при ввозе уплачивается на таможне (из ЕАЭС — в ФНС), вычет после принятия на учёт",
+     "reason": "таможн|еаэс|ввоз.*ндс", "source": "ст. 151, 171 НК РФ"},
+
+    {"id": "r-export", "kind": "info_op",
+     "operation": {"classes": ["export"]},
+     "level": "info", "message": "ставка НДС 0% при экспорте требует подтверждения пакетом документов",
+     "reason": "0 ?%|ноль|подтвержд.*экспорт", "source": "ст. 165 НК РФ"},
+
+    {"id": "r-penalties-usn", "kind": "regime",
+     "operation": {"classes": ["penalties"]}, "regimes": ["УСН"],
+     "level": "contraindicated", "message": "пени и штрафы по налогам не принимаются в расходы УСН",
+     "reason": "пени.*не.*расход|штраф.*не.*расход|не учитыва", "source": "п. 2 ст. 346.16 НК РФ"},
+
+    {"id": "r-gift-vat", "kind": "info_op",
+     "operation": {"classes": ["gift"]},
+     "level": "caution", "message": "безвозмездная передача облагается НДС и не учитывается в расходах",
+     "reason": "безвозмездн.*ндс|передач.*ндс|дарен.*ндс", "source": "пп. 1 п. 1 ст. 146 НК РФ"},
+
+    {"id": "r-credit", "kind": "info_op",
+     "operation": {"classes": ["credit"]},
+     "level": "info", "message": "проценты по кредиту учитываются в расходах; по контролируемой задолженности — с ограничениями",
+     "reason": "процент.*расход|контролируем.*задолженн", "source": "ст. 269 НК РФ"},
+
+    {"id": "r-advance-osno", "kind": "regime",
+     "operation": {"classes": ["advance_in"]}, "regimes": ["ОСНО"],
+     "level": "caution", "message": "НДС с полученного аванса исчисляется в квартале получения",
+     "reason": "аванс.*ндс.*квартал|ндс.*аванс.*исчисл", "source": "пп. 2 п. 1 ст. 167 НК РФ"},
+
+    {"id": "r-offset", "kind": "info_op",
+     "operation": {"classes": ["offset"]},
+     "level": "caution", "message": "взаимозачёт требует акта зачёта и первичных документов по обеим сторонам",
+     "reason": "акт.*зачет|акт.*зачёт|первичн.*зачет", "source": "ст. 410 ГК РФ"},
+
+    {"id": "r-return-vat", "kind": "info_op",
+     "operation": {"classes": ["return"]},
+     "level": "caution", "message": "возврат товара требует корректировочного счёта-фактуры и обратных проводок",
+     "reason": "корректировочн|возврат.*счет-фактур", "source": "п. 3 ст. 170 НК РФ"}
+  ],
+  "builtin": {
+    "cp_mass_address": {"level": "caution",
+      "message": "адрес массовой регистрации — проверьте контрагента и запросите документы (должная осмотрительность)",
+      "reason": "массов.*адрес|осмотрительн|54.1|провер.*контрагент"},
+    "cp_disqualified": {"level": "avoid",
+      "message": "директор контрагента дисквалифицирован — сделка может быть оспорена",
+      "reason": "дисквалифицир|оспор|недействительн"},
+    "cp_young": {"level": "info",
+      "message": "компания зарегистрирована менее года назад — запросите подтверждение реальной деятельности",
+      "reason": "менее года|недавно.*зарегистрир|молод.*компан"},
+    "no_primary_docs": {"level": "avoid",
+      "message": "расход без первичных документов не принимается к учёту",
+      "reason": "первичн.*документ|без.*документ.*не.*расход|документ.*подтвержд"}
+  }
+}
